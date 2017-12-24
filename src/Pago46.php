@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Skeleton;
+namespace normeno\pago46;
 
 class SkeletonClass
 {

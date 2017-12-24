@@ -1,19 +1,20 @@
 {
-    "name": "Normeno/googlejsonguide",
+    "name": "Pago46",
     "type": "library",
-    "description": "Generate output based on Google json style guide",
+    "description": "Simple implementation of pago46",
     "keywords": [
         "normeno",
-        "google-json-guide"
+        "pago46",
+        "payment"
     ],
-    "homepage": "https://github.com/normeno/googlejsonguide",
+    "homepage": "https://github.com/normeno/pago46",
     "license": "MIT",
     "authors": [
         {
             "name": ":Nicolas Ormeno",
             "email": "ni.ormeno@gmail.com",
             "homepage": "http://normeno.com",
-            "role": "Developer"
+            "role": "Lead"
         }
     ],
     "require": {
@@ -24,13 +25,16 @@
         "squizlabs/php_codesniffer": "^2.3"
     },
     "autoload": {
-        "psr-4": {
-            "normeno\\googlejsonguide\\": "src"
-        }
+      "psr-0": {
+        "Normeno\\Pago46": "src"
+      },
+      "psr-4": {
+          "Normeno\\Pago46\\": "src"
+      }
     },
     "autoload-dev": {
         "psr-4": {
-            "normeno\\googlejsonguide\\": "tests"
+            "Normeno\\Pago46\\": "tests"
         }
     },
     "scripts": {

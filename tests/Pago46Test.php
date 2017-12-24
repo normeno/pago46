@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Skeleton;
+namespace normeno\pago46;
 
 class ExampleTest extends \PHPUnit\Framework\TestCase
 {
